@@ -1,0 +1,16 @@
+c:\users\gabriel\documents\visual studio 2013\Projects\HeresonFanClubBot\HeresonFanClubBot\bin\Debug\HeresonFanClubBot.exe.config
+c:\users\gabriel\documents\visual studio 2013\Projects\HeresonFanClubBot\HeresonFanClubBot\bin\Debug\HeresonFanClubBot.exe
+c:\users\gabriel\documents\visual studio 2013\Projects\HeresonFanClubBot\HeresonFanClubBot\bin\Debug\HeresonFanClubBot.pdb
+c:\users\gabriel\documents\visual studio 2013\Projects\HeresonFanClubBot\HeresonFanClubBot\obj\Debug\HeresonFanClubBot.csprojResolveAssemblyReference.cache
+c:\users\gabriel\documents\visual studio 2013\Projects\HeresonFanClubBot\HeresonFanClubBot\obj\Debug\Interop.SKYPE4COMLib.dll
+c:\users\gabriel\documents\visual studio 2013\Projects\HeresonFanClubBot\HeresonFanClubBot\obj\Debug\HeresonFanClubBot.csproj.ResolveComReference.cache
+c:\users\gabriel\documents\visual studio 2013\Projects\HeresonFanClubBot\HeresonFanClubBot\obj\Debug\HeresonFanClubBot.Form1.resources
+c:\users\gabriel\documents\visual studio 2013\Projects\HeresonFanClubBot\HeresonFanClubBot\obj\Debug\HeresonFanClubBot.Properties.Resources.resources
+c:\users\gabriel\documents\visual studio 2013\Projects\HeresonFanClubBot\HeresonFanClubBot\obj\Debug\HeresonFanClubBot.csproj.GenerateResource.Cache
+c:\users\gabriel\documents\visual studio 2013\Projects\HeresonFanClubBot\HeresonFanClubBot\obj\Debug\HeresonFanClubBot.exe
+c:\users\gabriel\documents\visual studio 2013\Projects\HeresonFanClubBot\HeresonFanClubBot\obj\Debug\HeresonFanClubBot.pdb
+C:\Users\Gabriel\Documents\GitHub\FanClubSkypeBot\HeresonFanClubBot\bin\Debug\HeresonFanClubBot.exe.config
+C:\Users\Gabriel\Documents\GitHub\FanClubSkypeBot\HeresonFanClubBot\obj\Debug\Interop.SKYPE4COMLib.dll
+C:\Users\Gabriel\Documents\GitHub\FanClubSkypeBot\HeresonFanClubBot\obj\Debug\HeresonFanClubBot.csproj.ResolveComReference.cache
+C:\Users\Gabriel\Documents\GitHub\FanClubSkypeBot\HeresonFanClubBot\obj\Debug\HeresonFanClubBot.exe
+C:\Users\Gabriel\Documents\GitHub\FanClubSkypeBot\HeresonFanClubBot\obj\Debug\HeresonFanClubBot.pdb
