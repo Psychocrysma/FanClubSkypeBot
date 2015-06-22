@@ -14,3 +14,9 @@ C:\Users\Gabriel\Documents\GitHub\FanClubSkypeBot\HeresonFanClubBot\obj\Debug\In
 C:\Users\Gabriel\Documents\GitHub\FanClubSkypeBot\HeresonFanClubBot\obj\Debug\HeresonFanClubBot.csproj.ResolveComReference.cache
 C:\Users\Gabriel\Documents\GitHub\FanClubSkypeBot\HeresonFanClubBot\obj\Debug\HeresonFanClubBot.exe
 C:\Users\Gabriel\Documents\GitHub\FanClubSkypeBot\HeresonFanClubBot\obj\Debug\HeresonFanClubBot.pdb
+C:\Users\Gabriel\Documents\GitHub\FanClubSkypeBot\HeresonFanClubBot\bin\Debug\HeresonFanClubBot.exe
+C:\Users\Gabriel\Documents\GitHub\FanClubSkypeBot\HeresonFanClubBot\bin\Debug\HeresonFanClubBot.pdb
+C:\Users\Gabriel\Documents\GitHub\FanClubSkypeBot\HeresonFanClubBot\obj\Debug\HeresonFanClubBot.csprojResolveAssemblyReference.cache
+C:\Users\Gabriel\Documents\GitHub\FanClubSkypeBot\HeresonFanClubBot\obj\Debug\HeresonFanClubBot.Form1.resources
+C:\Users\Gabriel\Documents\GitHub\FanClubSkypeBot\HeresonFanClubBot\obj\Debug\HeresonFanClubBot.Properties.Resources.resources
+C:\Users\Gabriel\Documents\GitHub\FanClubSkypeBot\HeresonFanClubBot\obj\Debug\HeresonFanClubBot.csproj.GenerateResource.Cache

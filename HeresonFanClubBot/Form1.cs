@@ -10,13 +10,14 @@ using System.Windows.Forms;
 using SKYPE4COMLib;
 using System.Diagnostics;
 using System.IO;
+using CryptorEngine;
 
 namespace HeresonFanClubBot
 {
     public partial class Form1 : Form
     {
         private Skype skype;
-        private const string nick = "[ImoutoBot] ";
+        private const string nick = "[Shin's Imouto] ";
         public Form1()
         {
             InitializeComponent();
@@ -25,27 +26,37 @@ namespace HeresonFanClubBot
         {
             skype = new Skype();
             skype.Attach(7, false);
-
+            
             skype.MessageStatus += new _ISkypeEvents_MessageStatusEventHandler(skype_MessageStatus);
         }
         string username = "";
         private void skype_MessageStatus(ChatMessage msg, TChatMessageStatus status)
         {
+            MessageBox.Show(status.ToString());
             if (msg.Body.StartsWith("!"))
             {
                 string command = msg.Body.ToLower();
                 username = msg.FromHandle;
-                Chat chat = msg.Chat;
-                if (msg.Body.ToLower().StartsWith("!hello"))
+                if (msg.Body.ToLower().StartsWith("!hello") && TChatMessageStatus.cmsReceived == status)
                 {
                     if (username == "chuck.a.maverick")
                     {
-                        chat.SendMessage("Hello, Onii-chan!");
+                        msg.Chat.SendMessage("Hello, Onii-chan!");//Envoie dans le chat sélectionné
                     }
                     else
                     {
-                        chat.SendMessage("Hello, " + msg.FromDisplayName + "!");
+                        msg.Chat.SendMessage("Hello, " + msg.FromDisplayName + "!");//Envoie dans le chat sélectionné
                     }
+                }
+                else if (msg.Body.StartsWith("!encrypt ".ToLowerInvariant()) || msg.Body.StartsWith("!ENCRYPT ".ToUpperInvariant()))
+                {
+                    string msgtoencrypt = msg.Body.Replace("!ENCRYPT ", "").Replace("!encrypt", "");
+                    string atbash = CryptorEngine.CryptorEngine.EncryptAB(msgtoencrypt);
+                }
+                else if (msg.Body.StartsWith("!decrypt ".ToLowerInvariant()) || msg.Body.StartsWith("!DECRYPT ".ToUpperInvariant()))
+                {
+                    string msgtoencrypt = msg.Body.Replace("!DECRYPT ", "").Replace("!decrypt", "");
+                    string atbash = CryptorEngine.CryptorEngine.EncryptAB(msgtoencrypt);
                 }
             }
         }
